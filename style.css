@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height:  60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 120px;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+/** boxx 2 **/
+.add-first {
+    color: #cccc;
+    font-size: 0.7rem;
+    margin-left: 15px;
+    width: 130px;
+}
+.add-sec {
+    font-size: 0.95rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/** boxx 3 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 820px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover {
+    border: 3px solid orange;
+}
+.search-select {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 52px;
+    border: none;
+    background-color: #Febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.45rem;
+}
+/** box nav **/
+.nav-loc {
+    height: 40px;
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-loc select {
+    background-color: #0F1111; /* Set the background color of the select element */
+    color: white; /* Set the text color inside the select element */
+    border: none; /* Remove default border (optional) */
+    /* Add any other styles you want for the select element */
+}
+
+/** box 4 **/
+span {
+    font-size: 0.7rem;
+}
+.nav-sign-sec {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/** boxx - 6 **/
+.nav-cart i {
+    font-size: 2rem;
+}
+.nav-cart {
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+/** panel **/
+.panel {
+    background-color: #222F3D;
+    display: flex;
+    height: 39px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all {
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+.panel-mid p {
+    display: inline;
+    margin-left: 10px;
+}
+.panel-mid p:hover{
+    border: 1px solid white;
+}
+.panel-mid {
+    width: 90%;
+    font-size: 0.9rem;
+    font-weight: 530;
+}
+
+/** hero **/
+.hero-section {
+    background-image: url(hero_image.jpg);
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-section::after {
+    content: "";
+    position: absolute;
+    top: 210px;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #E3E6E6); /* Gradient colors and transparency */
+    pointer-events: none;
+}
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    width: 95%;
+    margin-bottom: 40px;
+    z-index: 1; 
+}
+.hero-msg a {
+    color: #007185;
+}
+/** boxx **/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E3E6E6;
+}
+.box {
+    height: 400px;
+    width: 23.5%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.box-content p {
+    color: #007185;
+}
+/** boack to top **/
+.footer-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: rem;
+}
+.footpanel2 {
+    background-color: #222F3D;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 50px;
+}
+ul a {
+    margin-top: 15px;
+    display: block;
+    font-size: 0.95rem;
+    color: #dddd;
+}
+ul p {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.footpanel3 {
+    background-color: #222F3D;
+    height: 100px;
+    border-top: 0.1px solid #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    border: 1px solid #dddd;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+}
